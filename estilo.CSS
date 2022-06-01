@@ -61,7 +61,7 @@ h3
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #0E1E45;
+    /*background-color: #0E1E45;*/
     color: #fff;
     border-radius: 20px 20px 20px 20px;
 }
@@ -133,7 +133,7 @@ h3
     width: 70%;
     height: 100%;
     float: right;
-    background-color:azure;
+    background-color:beige;
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -143,12 +143,19 @@ h3
     text-align: center;
 }
 
-.secundaryASIDE
+.primaryASIDE ul li
+{
+     list-style: none;
+     display:flex;
+     align-items: center;
+}
+
+#secundaryASIDE
 {
     color: beige;
 }
 
-.thirdASIDE
+#thirdASIDE
 {
     color: beige;
 }

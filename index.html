@@ -7,6 +7,7 @@
     <meta name="author" content="Emanuel Navarro"/>
     <meta name="description" content="Hoja de vida del estudiante Emanuel Navarro"/>
     <meta name="keywords" content="HTML5, CSS3, JAVASCRIPT, JSON, REST"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel= "stylesheet" href="estilo.CSS">
     <title>Curriculum</title>
 </head>
@@ -26,11 +27,11 @@
               <div id="menuNAV">
                   <ul>
                       <li><a href="index.html" class="principal">Home</a></li>
-                      <li><a href="#" class="principal">Experiencia</a></li>
-                      <li><a href="#" class="principal">Formación</a></li>
-                      <li><a href="#" class="principal">Skills</a></li>
-                      <li><a href="#" class="principal">Recomendaciones</a></li>
-                      <li><a href="#" class="principal">Sobre mí...</a></li>
+                      <li><a href="#headerExp" class="principal">Experiencia</a></li>
+                      <li><a href="#headerFor" class="principal">Formación</a></li>
+                      <li><a href="#thirdASIDE" class="principal">Skills</a></li>
+                      <li><a href="#headerReco" class="principal">Recomendaciones</a></li>
+                      <li><a href="#secundaryASIDE" class="principal">Sobre mí...</a></li>
                   </ul>
                </div>
           </nav> 
@@ -43,22 +44,22 @@
                     <div class="primaryASIDE">
                         <img class="img1" src="img/Foto Perfil.jpg" width = "320" height = "300" alt="">
                         <H3 class="h3Aside">Información Personal</H3>
-                      <ol>
-                        <li>Cédula: 116210687<a href="#"></a></li>
-                        <li>Teléfonos: 89758343 - 22960843<a href="#"></a></li>
-                        <li>Correo: emanuelnava9515@gmail.com<a href="#"></a></li>
-                        <li>San José, Costa Rica.<a href="#"></a></li>
-                        <li>Edad: 26 años<a href="#"></a></li>
-                        <li>Perfil de LinkedIN: <a href="https://www.linkedin.com/in/emanuel-navarro-alfaro-a5a6351ba/"></a></li>
-                      </ol>
+                      <ul>
+                        <li><span><img class="img1" src="img/cedula.png" width = "35" height = "35" alt=""></span> <span>Cédula: 116210687</span></li>
+                        <li><span><img class="img1" src="img/Telefono.png" width = "35" height = "35" alt=""></span>  <span>Teléfonos: 89758343 - 22960843</span></li>
+                        <li><span><img class="img1" src="img/correo.png" width = "35" height = "35" alt=""></span>  <span>Correo: emanuelnava9515@gmail.com</span></li>
+                        <li><span><img class="img1" src="img/ubicacion.png" width = "35" height = "35" alt=""></span> </i></span> <span>San José, Costa Rica</span></li>
+                        <li><span><img class="img1" src="img/edad.png" width = "35" height = "35" alt=""></span> </i></span> <span>Edad: 26 años</span></li>
+                        <li><span><img class="img1" src="img/perfil.png" width = "35" height = "35" alt=""></span> </i></span> <span>Perfil de LinkedIN:</span> <span><a href="https://www.linkedin.com/in/emanuel-navarro-alfaro-a5a6351ba/"></a> </span></li>
+                      </ul>
                     </div>
 
-                    <div class="secundaryASIDE">
+                    <div id="secundaryASIDE">
                         <H3 class="h3Aside">Sobre mí...</H3>
                         <p>-Soy responsable y comprometido con mi trabajo, fiel, siempre dispuesto a aprender y sin temor a los cambios. Me es fácil trabajar en equipo; me fascinan los retos porque me permiten crecer, lo que me hace valorar las oportunidades. En la actualidad me desenvuelvo en diferentes áreas entre las que siento un aprecio especial por la música y la composición. También soy poseedor de valores y buenas costumbres que me fueron inculcadas desde el seno familiar.</p>
                     </div>
 
-                    <div class="thirdASIDE">
+                    <div id="thirdASIDE">
                         <H3 class="h3Aside">Skills</H3>
                         <ul>
                             <li>Pensamiento crítico analítico.</li>
@@ -83,7 +84,7 @@
               <!--Secundary Main-->
                 <div id="secundaryMAIN">
                     <article class="post1">
-                        <div class="headerExp">
+                        <div id="headerExp">
                             <h3 class="h3Article">Experiencia Profesional:</h3>
                         </div>
                         <div class="contentExp">
@@ -119,7 +120,7 @@
                     </article>
     
                     <article class="post2">
-                        <div class="headerFor">
+                        <div id="headerFor">
                             <h3 class="h3Article">Formación Académica:</h3>
                         </div>
                         <div class="contentFor">
@@ -135,7 +136,7 @@
                     </article>
     
                     <article class="post3">
-                        <div class="headerReco">
+                        <div id="headerReco">
                             <h3 class="h3Article">Recomendaciones:</h3>
                         </div>
                         <div class="contentFor">
